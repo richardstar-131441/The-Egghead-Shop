@@ -10,6 +10,7 @@ header{background:rgba(255,254,250,.98);border-bottom:1px solid var(--border);po
 .navbar{max-width:1180px;margin:auto;padding:13px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
 .logo{display:flex;align-items:center;gap:10px;font:700 21px Georgia,serif;white-space:nowrap}
 .logo-mark{width:21px;height:27px;background:var(--yellow);border:1px solid var(--yellow-dark);border-radius:50% 50% 48% 48%/58% 58% 42% 42%;transform:rotate(9deg)}
+.site-logo{width:48px;height:48px;object-fit:contain;border-radius:6px}
 .nav-links{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
 .nav-links a{font-size:14px;font-weight:700;color:var(--muted)}
 .nav-links a:hover,.nav-links a[aria-current="page"]{color:var(--rust)}
@@ -41,6 +42,9 @@ header{background:rgba(255,254,250,.98);border-bottom:1px solid var(--border);po
 .page-heading h1{font-size:clamp(32px,4vw,44px);margin:10px 0}
 .page-heading p{max-width:720px;margin:auto;color:var(--muted)}
 .product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.gallery-title{text-align:center;margin:38px 0 18px;font-size:29px}
+.egg-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+.egg-gallery img{width:100%;height:210px;object-fit:cover;border-radius:9px;border:1px solid var(--border)}
 .product-card,.policy-card,.payment-card{border:1px solid var(--border);border-radius:11px;overflow:hidden;background:white}
 .product-card img{width:100%;height:220px;object-fit:cover}
 .product-info{padding:22px}

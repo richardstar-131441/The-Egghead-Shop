@@ -1,0 +1,13 @@
+THE EGGHEAD SHOP — UPDATED WEBSITE WITH ALL PICTURES
+
+This package contains the five website pages, stylesheet, and the images folder.
+
+Upload the CONTENTS of this extracted folder to the ROOT of your GitHub repository. Keep the images folder intact. Do not upload only the HTML files.
+
+The images folder contains all 8 pictures, including the Egghead Shop logo. The website pages refer to the exact filenames in that folder.
+
+On GitHub: open your repository > Add file > Upload files > drag the six website files AND the entire images folder into the upload area > Commit changes. If GitHub does not accept a folder drag, create the images folder in the repository and upload all 8 image files into it.
+
+After committing, wait a few minutes, then open the live site and press Ctrl+F5 to refresh.
+
+The website displays UGX 14,000 per tray and includes the student-project/payment disclaimer.
